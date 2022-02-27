@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+html{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+
+
+
+
+.klocki a {
+    position: relative;
+    display: block;
+    margin:  auto;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: 3px solid rgb(0, 0, 0);
+    overflow: hidden;
+    color: black;
+    transition: .15s .15s;
+    text-decoration: none;} 
+
+    a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    transform:translateY(-50%);
+    top:50%;
+    left: 100%;
+    transition: left .3s, height .1s;
+    z-index: -1;
+    }
+    
+    a:hover::before{
+    left:0;
+    height: 100%;
+    }
+    a:hover{
+    color:red;
+    }    
+
+    header{
+        border-bottom: 2px solid rgb(0, 0, 0);
+        position: absolute;
+        width: 100vw;
+        background-color: white;
+        z-index: 2;}
+        
+        ul{
+            padding-top: 1%;
+            max-width: 1024px;
+            margin:0 auto;
+            position: relative;
+            left:5%;
+            
+            
+        }
+        li{
+            display:inline-block;
+            padding: 25px;
+        }
+        div.logo{
+
+            float: left;
+            padding-left:40px;
+            padding-top:10px;
+        }
+
+        div.akapit h1{
+            padding-top: 12%;
+            text-align: center;
+        }
+        
+        div.akapit p {
+            
+            margin-top: 8%;
+            margin-right: 10%;
+            margin-left: 40%;
+            
+        }
+
+        div.akapit .zdj{
+            
+            
+            margin-top: -18%;
+            margin-left: 15%;
+        }
+        .akapit{
+            border-bottom: 2px solid black;
+            
+        }
+
+        
+        
+        div.games h1{
+            margin-top: 10%;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        div.games p{
+            margin-top: 2%;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+
+        
+        
+        .losowanieGry button{
+            display:block;
+            margin:80px auto 50px;
+            background-color: white;
+            border:5px solid black;
+            padding:20px 50px;
+            font-size:22px;
+            cursor:pointer;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+           
+        }
+        
+        
+        
+        
+        .losowanieGry div{
+            margin: 10px;
+            font-size: 30px;
+            text-align: center;
+            color: rgb(129, 80, 16);
+            
+        }
+        .losowanieGry .gra1{
+            margin-top: -10%;
+            margin-left: 2%;
+        }
+        .losowanieGry .gra2{
+            
+            margin-top: -5%;
+            margin-left: 45%;
+        }
+
+       .travels h1{
+           margin-top: 10%;
+           text-align: center;
+           text-decoration: underline;
+       }
+
+       .travels p{
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+       }
+
+       /* przyisk główny button */
+       body button{
+        background: linear-gradient(90deg,#2f6d88, #4b3d88)
+       }
+
+        
+       .losowaniePodrozy button{
+        display:block;
+        margin:80px auto 50px;
+        background-color: white;
+        border:5px solid rgb(0, 0, 0);
+        padding:20px 50px;
+        font-size:22px;
+        cursor:pointer;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+       
+    }
+
+    .losowaniePodrozy div{
+        margin: 10px;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(16, 103, 129);}
+
+    .trasa1{
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 19%;
+    }
+
+    .trasa{
+        position: relative;
+        margin-left:35%;
+        margin-top: 5%;
+    }
+    
+    .trasa3{
+        position: absolute;
+        margin-top: -10%;
+        margin-left:-50%
+    }
+
+    .doIt h1{
+        margin-top: 10%;
+        text-align: center;
+        text-decoration: underline;}
+
+    .doIt p{
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .losowanieDoIt div{
+        margin: 10px;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(16, 103, 129);}
+
+    .losowanieDoIt button{
+        display:block;
+        margin:80px auto 50px;
+        background-color: white;
+        border:5px solid rgb(0, 0, 0);
+        padding:20px 50px;
+        font-size:22px;
+        cursor:pointer;
+        text-transform: uppercase;
+        letter-spacing: 2px;}
+
+    .doing1{
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 5%;}
+
+    .doing2{
+        position: absolute;
+        margin-top: -8%;
+        margin-left: 72%;
+    }
+    .doing3{
+        position: relative;
+        margin-top: 5%;
+        margin-left: 35%;
+    }
+
+    .watch h1{
+        margin-top: 10%;
+        text-align: center;
+        text-decoration: underline;}
+    
+    .watch p{
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    .losowanieFilmu button{
+        display:block;
+        margin:80px auto 50px;
+        background-color: white;
+        border:5px solid rgb(0, 0, 0);
+        padding:20px 50px;
+        font-size:22px;
+        cursor:pointer;
+        text-transform: uppercase;
+        letter-spacing: 2px;}
+    
+    .losowanieFilmu{
+        margin: 10px;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(16, 103, 129);}
+
+    .watch1{
+        position: absolute;
+        margin-left: 42%;
+        margin-top: 1%;
+    }
+        
+
+    .watch2{
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 5%;
+    }
+
+    .watch3{
+        position: relative;
+        margin-top: -15%;
+        margin-left: 75%;}
